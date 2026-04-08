@@ -1,0 +1,31 @@
+Linked list
+Defination :-A linked list is a linear data structure that consists of a sequence of elements called nodes. 
+            - where each node points to the next node by means of a pointer.
+            - Each node contains data and a reference (or link) to the next node in the sequence. 
+            - Unlike arrays, linked lists do not store elements in contiguous memory locations. 
+            - The elements in a linked list are not stored in contiguous memory locations, 
+            - which means that the elements can be scattered throughout the memory.
+            - this allows linked lists to be more flexible than arrays, as they can grow and shrink in size dynamically.
+
+operations:
+    - Insertion
+    - Deletion
+    - Traversal
+    - Search
+    - Sort
+    - Reverse
+    - Merge
+    - Detect Loop
+    - Remove Loop
+    - Find Middle
+    - Find nth node from end
+    - Find length
+    - Find intersection
+    - Find cycle
+    - Find cycle length
+    - Find cycle start
+    - Find cycle remove
+    - Find cycle reverse
+    - Find cycle sort
+    - Find cycle merge
+    - Find cycle detect

@@ -1,0 +1,88 @@
+# Linear Search
+
+Def : Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. 
+      If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise, narrow it to the upper half. 
+      Repeatedly check until the value is found or the interval is empty.
+
+advantages:
+- Fast for sorted arrays
+- Simple implementation
+- Works well with large datasets
+
+disadvantages:
+- Requires sorted array
+- Slower than hash tables for unsorted data
+- Not cache-friendly for large arrays
+
+working:
+- Start with the entire array
+- Compare target with middle element
+- If match, return index
+- If target is smaller, search left half
+- If target is larger, search right half
+- Repeat until found or search space is empty
+
+Real time Applications : 
+- Dictionary lookup
+- Database indexing
+- File system search
+- Game AI (minimax with alpha-beta pruning)
+- Finding elements in sorted collections
+- Database indexing
+- File system search
+- Game AI (minimax with alpha-beta pruning)
+- Finding elements in sorted collections
+
+
+#====================================================================================================
+#====================================================================================================
+
+# Binary Search
+
+Def : Search a sorted array by repeatedly dividing the search interval in half. Begin with an     
+      interval covering the whole array. 
+      If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise, narrow it to the upper half. 
+      Repeatedly check until the value is found or the interval is empty.
+
+Advantages:
+- Fast for sorted arrays
+- Simple implementation
+- Works well with large datasets
+
+Disadvantages:
+- Requires sorted array
+- Slower than hash tables for unsorted data
+- Not cache-friendly for large arrays
+
+Working:
+- Start with the entire array
+- Compare target with middle element
+- If match, return index
+- If target is smaller, search left half
+- If target is larger, search right half
+- Repeat until found or search space is empty
+
+Real time Applications : 
+- Dictionary lookup
+- Database indexing
+- File system search
+- Game AI (minimax with alpha-beta pruning)
+- Finding elements in sorted collections
+
+#====================================================================================================
+#====================================================================================================
+
+# Comparison between Linear and Binary Search
+
+| Feature             | Linear Search | Binary Search |
+|---------------------|---------------|---------------|
+| **Time Complexity** | O(n)          | O(log n)      |
+| **Space Complexity**| O(1)          | O(1)          |
+| **Data Requirement**| Any order     | Must be sorted|
+| **Best Case**       | O(1)          | O(1)          |
+| **Worst Case**      | O(n)          | O(log n)      |
+| **Average Case**    | O(n)          | O(log n)      |
+| **Cache Performance** | Good        | Poor          |
+| **Implementation**  | Simple        | More complex  |
+| **Use Cases**       | Small datasets| Large sorted  |
+|                     | Unsorted data | datasets      |
